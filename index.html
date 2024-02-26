@@ -60,29 +60,39 @@
     </div>    
   </section>
 
-  <section class="trailer" id="trailer">
+  <section class="trailers" id="trailer">
     <div class="container trailers__container">
       <ul class="trailers__buttons">
         <li class="trailers__item-button">
-          <button class="trailers__button trailers__button-active">Trailer 1</button>
+          <button
+            class="trailers__button trailers__button-active"
+            aria-label="Trailer 1"
+            data-src="https://www.youtube.com/embed/ByAn8DF8Ykk?si=PFojX8x0W6M5FSHj">Trailer 1</button>
         </li>
         <li class="trailers__item-button">
-          <button class="trailers__button">Trailer 2</button>
+          <button
+            class="trailers__button"
+            aria-label="Trailer 2"
+            data-src="https://www.youtube.com/embed/xEmlE9Ianuo?si=Z6716GncaK06GHi3">Trailer 2</button>
         </li>
         <li class="trailers__item-button">
-          <button class="trailers__button">Trailer 3</button>
+          <button
+            class="trailers__button"
+            aria-label="Trailer 3"
+            data-src="https://www.youtube.com/embed/AJPPCgONNxs?si=KwqOT1omsviR3nHq">Trailer 3</button>
         </li>
       </ul>
 
-      <ul class="trailers__list">
+      <!-- <ul class="trailers__list">
         <li class="trailers__item">
           <div class="trailers__wrapper">
             <iframe
              class="trailers__video" 
-              src="https://www.youtube.com/embed/ByAn8DF8Ykk?si=PFojX8x0W6M5FSHj"></iframe>
+              ></iframe>
           </div>
         </li>
-      </ul>
+      </ul> -->
+
     </div>
   </section>
 
@@ -106,7 +116,7 @@
   
 </footer>
 
-  <script src="js/index.js"></script>
+  <script src="js/index.js" defer></script>
 
 </body>
 </html>
